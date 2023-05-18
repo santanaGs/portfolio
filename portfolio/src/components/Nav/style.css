@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=JetBrains+Mono&display=swap');
+
+
+.max-container{
+    width: 1200px;
+    margin-inline: auto;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.navBar p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.navBar nav{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.navBar ul{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navBar ul>a{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.navBar ul>a:hover{
+    color: purple;
+    border-bottom: 1px solid rgb(179, 79, 179);
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+    padding: 0.4rem;
+
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+
+    transition: .8s;
+}
+
+.buttonContainer:hover{
+    box-shadow: inset -3.5em 0 0 0 rgb(179, 79, 179), inset 3.5em 0 0 0 rgb(179, 79, 179);
+}
+
+.buttonContainer img{
+    background-color: transparent;
+}
+
+.buttonMail{
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+

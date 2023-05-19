@@ -1,10 +1,10 @@
 import './styleSection.css'
 
-import instagram from '../../../assets/instagram.svg'
-import github from '../../../assets/github.svg'
-import linkedin from '../../../assets/linkedin.svg'
-import whatsapp from '../../../assets/whatsapp.svg'
-import me from '../../../assets/me.png'
+import instagram from '../../../../assets/instagram.svg'
+import github from '../../../../assets/github.svg'
+import linkedin from '../../../../assets/linkedin.svg'
+import whatsapp from '../../../../assets/whatsapp.svg'
+import me from '../../../../assets/me.png'
 
 export const Section1 = () => {
     return (
@@ -18,7 +18,7 @@ export const Section1 = () => {
                     <a href="https://instagram.com/_gs.santana/" target='blank'><img src={instagram} alt="" /></a>
                     <a href="https://api.whatsapp.com/send?phone=11991715657&text=Olá,%20vim%20através%20do%20seu%20portifólio!" target='blank'><img src={whatsapp} alt="" /></a>
                 </ul>
-                <p>I like to craft solid and scalable frontend products <br /> with great user experiences.</p>
+                <p>Eu gosto de criar projetos front-end sólidos <br /> e escaláveis com ótimas experiências ao usuário.</p>
             </div>
             <div className='right-area'>
                 <img src={me} alt="" />

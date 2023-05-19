@@ -1,0 +1,36 @@
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.about h1{
+    margin-inline: auto;
+    font-size: 45px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.about-container img{
+    width: 100%;
+    height: auto;
+}
+
+.about-container p {
+    width: 520px;
+    text-align: justify;
+}
+
+.right-area{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}

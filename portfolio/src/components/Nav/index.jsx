@@ -8,8 +8,8 @@ export const Nav = () => {
             <nav>
                 <ul>
                     <a href='#'>Home</a>
-                    <a href='#'>About</a>
-                    <a href='#'>Social Media Links</a>
+                    <a href='#about-us'>Sobre</a>
+                    <a href='#project'>Projetos</a>
                 </ul>
                 <div className="buttonContainer">
                     <img src={img1} alt=""/>

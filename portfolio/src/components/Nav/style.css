@@ -2,7 +2,7 @@
 
 
 .max-container{
-    width: 1200px;
+    width: min(1800px, 90vw);
     margin-inline: auto;
 }
 

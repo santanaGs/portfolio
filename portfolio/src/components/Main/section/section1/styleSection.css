@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=JetBrains+Mono&display=swap');
 
 .max-container2{
-    max-width: 1100px;
+    width: 70%;
     margin-inline: auto;
     margin-top: 9rem;
     margin-bottom: 15rem;

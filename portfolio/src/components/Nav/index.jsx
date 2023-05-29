@@ -1,4 +1,5 @@
 import './style.css'
+import { motion } from "framer-motion";
 import img1 from '../../assets/mail.png'
 
 export const Nav = () => {
@@ -10,6 +11,7 @@ export const Nav = () => {
                     <a href='#'>Home</a>
                     <a href='#about-us'>Sobre</a>
                     <a href='#project'>Projetos</a>
+                    <a href='#contact'>Contato</a>
                 </ul>
                 <div className="buttonContainer">
                     <img src={img1} alt=""/>

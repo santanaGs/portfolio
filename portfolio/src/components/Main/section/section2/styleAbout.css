@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10rem;
+    gap: 2rem;
 }
 
 .about-container img{
@@ -22,8 +22,9 @@
 }
 
 .about-container p {
-    width: 520px;
+    width: 400px;
     text-align: justify;
+    font-size: 20px;
 }
 
 .right-area{
@@ -33,4 +34,28 @@
 
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .max-container2{
+        margin-bottom: 0;
+    }
+
+    .about-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .about-container img{
+        width: 100%;
+    }
+
+    .about-container p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about h1{
+        font-size: 35px;
+    }
 }

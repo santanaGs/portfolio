@@ -14,7 +14,8 @@ export const About = () => {
                         Desenvolvedor front-end iniciante no mercado de trabalho!  Sempre procurando aprender e desenvolver meus conhecimentos de programação.
                     </p>
                     <p>
-                    Minha carreita começou no Desenvolvimento WEB e no Front-End, mas pretendo seguir no desenvolvimento Mobile. Fazendo uso da linguem React Native, tecnologia da qual estou aprendendo.
+                        Minha carreira começou no desenvolvimento Web e no Front-end.<br /><br />
+                        Pretendo seguir no desenvolvimento Mobile utilizando a linguagem React Native, a qual estou me aprimorando.
                     </p>
                 </div>
             </div>

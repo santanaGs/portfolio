@@ -93,3 +93,37 @@
 .text a:hover{
    box-shadow: inset -15.5em 0 0 0 #24120c, inset 15.5em 0 0 0 #24120c;
 }
+
+@media screen and (max-width: 768px){
+    .project{
+        flex-direction: column !important;
+    }
+
+    .cardSection{
+        flex-wrap: wrap;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .cardTop{
+        width: 100%;
+    }
+
+    .cardBottom{
+        width: 100%;
+    }
+
+    .container-card{
+        width: 100%;
+    }
+
+    .cardInfo{
+        width: 70%;
+        left: 55px;
+    }
+
+    .project h1{
+        font-size: 35px;
+        margin-bottom: 2rem;
+    }
+}

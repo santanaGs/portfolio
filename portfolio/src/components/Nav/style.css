@@ -8,9 +8,19 @@
 
 .navBar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    background-color: #263238;
+    color: #fff;
+    box-shadow: 1px 5px 5px #77909c;
+    height: 11%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .navBar p{
@@ -36,14 +46,14 @@
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     border: 1px solid transparent;
     transition: 0.3s;
 }
 
 .navBar ul>a:hover{
-    color: purple;
-    border-bottom: 1px solid rgb(179, 79, 179);
+    color: #77909c;
+    border-bottom: 1px solid #77909c;
 }
 
 .buttonContainer{
@@ -53,14 +63,15 @@
     gap: 0.5rem;
     padding: 0.4rem;
 
-    border: 1px solid #000;
+    border: 1px solid #77909c;
     border-radius: 0.3rem;
 
     transition: .8s;
 }
 
 .buttonContainer:hover{
-    box-shadow: inset -3.5em 0 0 0 rgb(179, 79, 179), inset 3.5em 0 0 0 rgb(179, 79, 179);
+    box-shadow: inset -3.5em 0 0 0 #77909c, inset 3.5em 0 0 0 #77909c;
+    
 }
 
 .buttonContainer img{
@@ -69,9 +80,43 @@
 
 .buttonMail{
     background-color: transparent;
-    color: #000;
+    color: #77909c;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
 }
 
+.buttonMail:hover{
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .navBar{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2rem;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        top: -34px;
+        background-color: #263238;
+        color: #fff;
+        padding: 5px;
+        box-shadow: 1px 5px 5px #77909c;
+        height: 11%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .buttonContainer{
+        display: none;
+    }
+
+    .navBar ul{
+        gap: 2rem;
+    }
+
+    .navBar ul a{
+        color: #fff;
+    }
+}

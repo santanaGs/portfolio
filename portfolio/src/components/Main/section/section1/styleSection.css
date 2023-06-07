@@ -3,8 +3,8 @@
 .max-container2{
     width: 70%;
     margin-inline: auto;
-    margin-top: 9rem;
-    margin-bottom: 15rem;
+    margin-top: 15rem;
+    margin-bottom: 18rem;
 
     display: flex;
     justify-content: space-between;
@@ -29,4 +29,35 @@
 
 .right-area img{
     width: 430px;
+}
+
+@media screen and (max-width: 768px) {
+    .max-container2{
+        flex-direction: column-reverse;
+       margin-inline: auto;
+       margin-top: 5rem;
+
+    }
+
+    .right-area img{
+        width: 70%;
+        height: auto;
+        margin-inline: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .left-area{
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    .left-area p{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .left-area h1{
+        font-size: 35px;
+    }
 }

@@ -13,10 +13,10 @@ export const Nav = () => {
                     <a href='#project'>Projetos</a>
                     <a href='#contact'>Contato</a>
                 </ul>
-                <div className="buttonContainer">
+                {/* <div className="buttonContainer">
                     <img src={img1} alt=""/>
                     <a href='mailto:gabrielsantana2267@gmail.com' className='buttonMail'>Mail</a>
-                </div>
+                </div> */}
             </nav>
         </div>
     )

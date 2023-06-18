@@ -15,9 +15,9 @@
     width: 100%;
     z-index: 1;
     top: 0px;
-    background-color: #263238;
+    background-color: #2D0B00;
     color: #fff;
-    box-shadow: 1px 5px 5px #77909c;
+    box-shadow: 1px 5px 5px #2d0b0081;;
     height: 11%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -52,8 +52,7 @@
 }
 
 .navBar ul>a:hover{
-    color: #77909c;
-    border-bottom: 1px solid #77909c;
+    border-bottom: 1px solid #fff0eb;
 }
 
 .buttonContainer{
@@ -99,7 +98,7 @@
         width: 100%;
         z-index: 1;
         top: -34px;
-        background-color: #263238;
+        background-color: #2D0B00;
         color: #fff;
         padding: 5px;
         box-shadow: 1px 5px 5px #77909c;

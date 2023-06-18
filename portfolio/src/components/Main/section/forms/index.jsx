@@ -11,6 +11,11 @@ export const Forms = () =>{
     const sendEmail = (e) =>{
         e.preventDefault();
 
+        if(name === "" || email === "" || message === ""){
+            alert("Preeencha todos os campos por gentileza!!!")
+            return;
+        }
+
         const templateParams = {
             from_name: name,
             message: message,
